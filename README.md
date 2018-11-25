@@ -7,6 +7,13 @@ CREATE DATABASE chitter;
 ```
 To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
 
+### To set up the test database
+Connect to `psql` and create the `chitter_test` database:
+```
+CREATE DATABASE chitter_test;
+```
+To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations/01_create_peeps_table.sql`.
+
 Chitter Challenge
 =================
 

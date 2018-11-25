@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chitter</title>
+  </head>
+
+  <body>
+    <h1>What is everyone peeping?</h1>
+
+    <% @peeps.each do |peep| %>
+        <li class="peep" id="peep-<%= peep.id %>">
+          <%= peep.text %>
+        </li>
+    <% end %>
+
+  </body>
+</html>
