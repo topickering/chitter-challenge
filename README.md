@@ -1,3 +1,5 @@
+A small Twitter clone, weekend challenge from Week 4 of Makers Academy
+
 Chitter Challenge
 =================
 
