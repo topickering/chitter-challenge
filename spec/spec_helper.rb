@@ -10,8 +10,7 @@ require 'rubocop'
 require 'simplecov'
 require 'simplecov-console'
 
-Capybara.app = Chipper
-
+Capybara.app = Chitter
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,

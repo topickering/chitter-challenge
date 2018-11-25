@@ -1,4 +1,11 @@
-A small Twitter clone, weekend challenge from Week 4 of Makers Academy
+A small Twitter clone, weekend challenge from Week 4 of Makers Academy.
+
+### To set up the database
+Connect to `psql` and create the `chitter` database:
+```
+CREATE DATABASE chitter;
+```
+To set up the appropriate tables, connect to the database in `psql` and run the SQL scripts in the `db/migrations` folder in the given order.
 
 Chitter Challenge
 =================
